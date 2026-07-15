@@ -1,80 +1,78 @@
 {
   "tree": {
-    "name": "CEO",
-    "attributes": {},
+    "name": "Наумов Сергей Анатольевич",
+    "attributes": {
+      "birthDate": "15.03.1945",
+      "birthPlace": "Санкт-Петербург",
+      "gender": "male"
+    },
     "children": [
       {
-        "name": "Manager",
+        "name": "Наумова Наталья Михайловна",
         "attributes": {
-          "Department": "Production"
+          "birthDate": "22.07.1947",
+          "birthPlace": "Москва",
+          "gender": "female",
+          "maidenName": "Соколова"
         },
         "children": [
           {
-            "name": "Foreman",
+            "name": "Мамина Анна Сергеевна",
             "attributes": {
-              "Department": "Fabrication"
+              "birthDate": "10.12.1975",
+              "birthPlace": "Москва",
+              "gender": "female",
+              "maidenName": "Наумова"
             },
             "children": [
               {
-                "name": "Workers",
-                "attributes": {},
-                "children": null
-              }
-            ]
-          },
-          {
-            "name": "Foreman",
-            "attributes": {
-              "Department": "Assembly"
-            },
-            "children": [
-              {
-                "name": "Workers",
-                "attributes": {},
-                "children": null
+                "name": "Мамин Алексей Викторович",
+                "attributes": {
+                  "birthDate": "05.06.2000",
+                  "birthPlace": "Екатеринбург",
+                  "gender": "male"
+                },
+                "children": [
+                  {
+                    "name": "Мамина Светлана Алексеевна",
+                    "attributes": {
+                      "birthDate": "12.09.2025",
+                      "birthPlace": "Екатеринбург",
+                      "gender": "female",
+                      "maidenName": "Мамина"
+                    },
+                    "children": null
+                  }
+                ]
               }
             ]
           }
         ]
       },
       {
-        "name": "Manager",
+        "name": "Синицына Мария Федоровна",
         "attributes": {
-          "Department": "Marketing"
+          "birthDate": "08.02.1949",
+          "birthPlace": "Нижний Новгород",
+          "gender": "female",
+          "maidenName": "Синицына"
         },
         "children": [
           {
-            "name": "Sales Officer",
+            "name": "Мамин Виктор Павлович",
             "attributes": {
-              "Department": "A"
+              "birthDate": "14.11.1973",
+              "birthPlace": "Пермь",
+              "gender": "male"
             },
-            "children": [
-              {
-                "name": "Salespeople",
-                "attributes": {},
-                "children": null
-              }
-            ]
-          },
-          {
-            "name": "Sales Officer",
-            "attributes": {
-              "Department": "B"
-            },
-            "children": [
-              {
-                "name": "Salespeople",
-                "attributes": {},
-                "children": null
-              }
-            ]
+            "children": null
           }
         ]
       }
     ]
   },
   "configurations": {
-    "title": "My Family Tree",
+    "title": "Родословная семьи Маминых",
     "orientation": "vertical",
     "translateX": 637.52783203125,
     "translateY": 546.6666870117188,
@@ -82,7 +80,7 @@
     "renderCustomNodeElement": "svg",
     "collapsible": true,
     "shouldCollapseNeighborNodes": false,
-    "initialDepth": 1,
+    "initialDepth": 2,
     "depthFactor": null,
     "zoomable": true,
     "zoom": 1,
@@ -95,8 +93,8 @@
       "nonSiblings": 2
     },
     "nodeSize": {
-      "x": 200,
-      "y": 200
+      "x": 220,
+      "y": 180
     },
     "enableLegacyTransitions": false,
     "transitionDuration": 500,
